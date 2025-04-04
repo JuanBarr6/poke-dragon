@@ -7,7 +7,7 @@ export default function FormsPage() {
     const [name, setName] = useState<string>("");
     const [error, setError] = useState<string | null>(null);
 
-    const handleSubmit =(event) =>{
+    const handleSubmit =(event: any) =>{
         event?.preventDefault();
         if(name === "hola"){
             alert("hola")
