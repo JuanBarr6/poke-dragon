@@ -1,10 +1,11 @@
-import {DragonBallCharacterDetail} from "@/features/dragon-ball/data/dto";
+import { DragonBallCharacterDetail } from '@/features/dragon-ball/data/dto';
 
 interface DragonBallCharacterDetailProps {
-    character: DragonBallCharacterDetail;
+  character: DragonBallCharacterDetail;
 }
 
-
-export default function DragonBallCharacterDetailComponent  ({character}: DragonBallCharacterDetailProps) {
-    return <div>{character.name}</div>
+export default function DragonBallCharacterDetailComponent({
+  character,
+}: DragonBallCharacterDetailProps) {
+  return <div>{character.name}</div>;
 }

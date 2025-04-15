@@ -1,3 +1,3 @@
 export default function PokemonEvolves() {
-    return <div>PokemonEvolves</div>
+  return <div>PokemonEvolves</div>;
 }
